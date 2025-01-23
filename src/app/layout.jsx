@@ -8,7 +8,7 @@ import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Atiqur's Tech",
+  title: "Atiqurs Tech",
   description: "A tech blog.",
 };
 
@@ -22,7 +22,7 @@ export default async function RootLayout({ children }) {
         <header>
           <nav className="nav container">
             <Link href={"/"}>
-              <h1 className="text-display-3">Atiqur's Blog</h1>
+              <h1 className="text-display-3">Atiqurs Blog</h1>
             </Link>
             <div className="">
               <Link href={"/"}>
@@ -70,7 +70,7 @@ export default async function RootLayout({ children }) {
         <main>{children}</main>
         <footer className="footer">
           <div className="container">
-            <strong className="text-heading-2">Atiqur's Tech</strong>
+            <strong className="text-heading-2">Atiqur Tech</strong>
             <p className="footer-tagline text-body-3">
               Visit our Site{" "}
               {/* <Link className="link" href="https://kinde.com/docs">
@@ -79,7 +79,7 @@ export default async function RootLayout({ children }) {
             </p>
 
             <small className="text-subtle">
-              © 2025 Atiqur's Tech, Inc. All rights reserved
+              © 2025 Atiqurs Tech, Inc. All rights reserved
             </small>
           </div>
         </footer>
