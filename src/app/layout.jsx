@@ -22,7 +22,7 @@ export default async function RootLayout({ children }) {
         <header>
           <nav className="nav container">
             <Link href={"/"}>
-              <h1 className="text-display-3">Atiqurs Blog</h1>
+              <h1 className="text-display-3">Atiqur Blog</h1>
             </Link>
             <div className="">
               <Link href={"/"}>
