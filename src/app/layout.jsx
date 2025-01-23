@@ -28,6 +28,7 @@ export default async function RootLayout({ children }) {
               <Link href={"/"}>
                 <button className="btn">Home</button>
               </Link>
+              <span> </span>
               <Link href={"/profile"}>
                 <button className="btn">Profile</button>
               </Link>
