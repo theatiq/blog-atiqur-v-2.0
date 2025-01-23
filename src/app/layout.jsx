@@ -28,6 +28,9 @@ export default async function RootLayout({ children }) {
               <Link href={"/"}>
                 <button className="btn">Home</button>
               </Link>
+              <Link href={"/allposts"}>
+                <button className="btn">All Posts</button>
+              </Link>
               <Link href={"/profile"}>
                 <button className="btn">Profile</button>
               </Link>
