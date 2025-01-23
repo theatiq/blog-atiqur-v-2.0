@@ -21,7 +21,17 @@ export default async function RootLayout({ children }) {
       <body>
         <header>
           <nav className="nav container">
-            <h1 className="text-display-3">Atiqur's Blog</h1>
+            <Link href={"/"}>
+              <h1 className="text-display-3">Atiqur's Blog</h1>
+            </Link>
+            <div className="">
+              <Link href={"/"}>
+                <button className="btn">Home</button>
+              </Link>
+              <Link href={"/profile"}>
+                <button className="btn">Profile</button>
+              </Link>
+            </div>
             <div>
               {!(await isAuthenticated()) ? (
                 <>
