@@ -31,7 +31,7 @@ export default function Allposts() {
           <div key={post.id} className="card">
             <h3 className="text-heading-2">{post.title}</h3>
             <p className="text-body-2">{post.body.slice(0, 100)}...</p>
-            <Link href={`/details/${post.id}`} className="btn btn-primary">
+            <Link href={`/allposts/${post.id}`} className="btn btn-primary">
               View Details
             </Link>
           </div>
